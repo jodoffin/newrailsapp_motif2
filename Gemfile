@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 
+gem 'carrierwave'
+gem 'mini_magick'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
 # Use mysql as the database for Active Record

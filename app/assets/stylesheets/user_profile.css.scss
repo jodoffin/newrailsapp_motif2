@@ -1,3 +1,39 @@
 // Place all the styles related to the user_profile controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+ 
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+h1#userProfile-userName,h2#userProfile-userBio{
+	text-align: center;
+	margin: 0;
+}
+
+
+h1#userProfile-userName{
+font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  font-size: 2em;
+}
+
+h2#userProfile-userBio{
+	font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  font-size: 1.5em;
+
+}
+
+section#userProfile-profilePic{
+	text-align: center;
+	margin: 0;
+}
+
+body#userProfile-nav{
+
+	
+}
+

@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Motif2</title>
+  <title>Motif2| LifeMotif focus  your life </title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+	<nav> 
+			<a href=""><p>logo and hyper link goes here -> will go back to feed  or progress page</p></a>
+	</nav>
 <%= yield %>
-
+	<footer>
+		<p> &copy Behave Tech Labs & Company </p>
+	</footer>
 </body>
 </html>
