@@ -32,8 +32,12 @@ section#userProfile-profilePic{
 	margin: 0;
 }
 
-body#userProfile-nav{
-
+.siteSections{
+	list-style: none;
 	
+}
+
+body > nav{
+  font-size: 13px;
 }
 
